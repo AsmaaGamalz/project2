@@ -1,0 +1,244 @@
+*{
+   padding: 0px;
+    margin: 0px;
+    
+}
+.navbar{
+    background-image:url("head.jpg");
+ background-size:100% 100;
+    text-align: center;
+}
+
+.navbar .navbar-brand{
+    color: #fed136;
+    font-size:30px;
+
+}
+.collapse{
+ 
+    color:#fed136;
+}         
+
+ .navbar.collapse .nav-link {
+   font-size:14px;
+    font-weight: 500;
+    color: #fed136;
+}
+.navbar .nav-link:hover{
+    color: #fed136;
+}
+.custom-toggler
+{
+    background-color:#fed136 !important;
+  color: #fed136 !important;
+    font-size: 16px;
+}
+
+.head
+{
+    height: 800px;
+    margin: 0px;
+    margin: auto;
+    flex: center;
+    align-items: center;
+    justify-content: center;
+}
+.intro-heading h1
+{
+    font-size: 75px;
+    font-weight: 700;
+
+}
+.btn
+{
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.sub1{
+    
+    position:relative;
+}
+.overlay{
+    position: absolute;
+    top:-100%;
+    right:0x;
+    left:0px;
+    bottom:100%;
+    background-color: rgba(0,0,0,0.6);
+   transition: all 2s;
+    
+}
+.overlay a{
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #ffb606;
+}
+
+.sub1:hover .overlay{
+ transform: translateY(100%);
+}
+    
+ .info-title
+{
+    background-color: #fff;
+    position: absolute;
+    left:15px;
+    right:15px;
+    bottom:15px;
+    transition: all 1s;
+}
+
+
+.sub1:hover .info-title
+{
+    bottom:-100%;
+    transition-delay: 0.5s;
+}
+
+
+.info-title h4
+{
+    color: #002147;
+}
+ .info-title span
+{
+    color: #ffb606;
+}
+
+
+
+
+
+
+
+
+
+
+
+.category
+{
+    background-color: #f9f9f9;
+    font-family: sans-serif; 
+}
+.category .category-title
+{
+    font-size:30px;
+    color:#002147;
+    font-weight: 700;
+
+}
+.category .category-text
+{
+    color:#666;
+    font-weight: 400;
+    font-size:14px;
+    line-height: 26px;
+}
+.card-1 ,.card-2,.card-3,.card-4,.card-5,.card-6,.card-7,.card-8
+{
+ background-size: cover;
+  border: none;
+    transition:all 1s;
+} 
+.card-1{background-image: url(i01.jpg);}
+.card-2{ background-image: url(i02.jpg);}
+.card-3{background-image: url(i03.jpg);}
+.card-4{background-image: url(04.jpg);}
+.card-5{background-image: url(05.jpg);}
+.card-6{background-image: url(06.jpg);}
+.card-7{background-image: url(07.jpg);}
+.card-8{background-image: url(08.jpg);}
+
+.card-1 .car-overlay {background-color: #337ab7;}
+.card-1 .car-overlay:hover{background-color:rgba(51, 122, 180, 0.58);}
+
+.card-2 .car-overlay {background-color: #1ec1d9;}
+.card-2 .car-overlay:hover{background-color:rgba(30, 193, 217, 0.51)}
+
+.card-3 .car-overlay {background-color: #10c45c ;}
+.card-3 .car-overlay:hover{background-color:rgba(16, 196, 92, 0.64)}
+
+.card-4 .car-overlay {background-color: #47c58e ;}
+.card-4 .car-overlay:hover{background-color:rgba(71, 197, 142, 0.6)}
+
+.card-5 .car-overlay {background-color: #f9bd44;}
+.card-5 .car-overlay:hover{background-color:rgba(249, 189, 68, 0.7)}
+
+.card-6 .car-overlay {background-color: #e948ae ;}
+.card-6 .car-overlay:hover{background-color:rgba(233, 72, 174, 0.55)}
+
+.card-7 .car-overlay {background-color: #e84b3a ;}
+.card-7 .car-overlay:hover{background-color:rgba(232, 75, 58, 0.62)}
+
+.card-8 .car-overlay {background-color: #92278f ;}
+.card-8 .car-overlay:hover{background-color:rgba(146, 39, 143, 0.48)}
+.card .car-overlay {  transition:all 2s;}
+.category .info 
+{
+    font-weight: 600;
+    margin-bottom: 15px;
+    text-transform: capitalize;
+  padding: 12x; 
+   
+}
+
+
+.portfolio
+{
+    background-color:#f8f9fa;
+ 
+}
+
+.portfolio-caption
+{
+    background-color:#fff;
+    width: 100%;
+}
+.portfolio-caption h4
+{
+    font-weight: 700;
+}
+.portfolio-caption p
+{
+    font-weight: 700;
+    font-size: 16px;
+}
+.portfolio-link
+{
+    position: relative;
+    display: block;
+}
+
+.portfolio-hover
+{
+    position:absolute;
+    width: 100%;
+    height:100%;
+    top:0;
+    left:0;
+   opacity: 0;
+transition: all 1s;
+}
+
+.portfolio-link:hover .portfolio-hover
+{
+    background-color: rgba(254,209,54,.9);
+    opacity:1;
+}
+
+.contact-us
+{
+    background-color: #212529;
+    background-image: url("map.png");
+    background-size: cover;
+}
+.contact-us h2 
+{
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+.footer {
+    font-size:20px;
+}
